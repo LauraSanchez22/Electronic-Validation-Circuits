@@ -55,9 +55,9 @@ region where the emitter voltage is very low, causing energy dissipation without
 The implemented methodology consists of performing functional tests on the circuit to verify the 
 results for each component, checking their behavior against the electrical connections made.
 
-![Texto alternativo]("./BJT_Circuit.png")
+![Texto alternativo]("BJT_Circuit.png")
 
-![Texto alternativo]("./BJT_Circuit_Led_ON.png")
+![Texto alternativo]("BJT_Circuit_Led_ON.png")
 
 ## Modifications to the circuit (evidence)
 
@@ -78,7 +78,7 @@ Since the collector is directly connected to VCC without any intervening resisto
 current tends to rise to a high value.
 
 
-![Texto alternativo]("./Modified_BJT_Circuit.png")
+![Texto alternativo]("Modified_BJT_Circuit.png")
 
 
 ## Results obtained from the modified simulation
@@ -97,13 +97,13 @@ current tends to rise to a high value.
 When the switch is open, the transistor remains off, blocking current flow; this keeps the 
 LED off and the voltmeter reading at 0.
 
-![Texto alternativo]("./NPN_Transistor_Switching_OFF.png")
+![Texto alternativo]("NPN_Transistor_Switching_OFF.png")
 
 When current enters the transistor's base, the transistor activates, acting as a closed circuit 
 to ground; current flows from the 5V source through the 220Ω resistor, lighting up the pink LED. 
 However, this results in a voltage drop of 2.23V as measured by the voltmeter.
 
-![Texto alternativo]("./NPN_Transistor_Switching_ON.png")
+![Texto alternativo]("NPN_Transistor_Switching_ON.png")
 
 As part of the modifications to this final design, some connections were changed and the 1 kΩ 
 resistor was removed.
