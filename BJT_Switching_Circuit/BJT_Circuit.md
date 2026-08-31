@@ -46,10 +46,7 @@ region where the emitter voltage is very low, causing energy dissipation without
 | VCC                           | 0.5V         | Circuit power supply.              |
 | VLED                          | 0.19V        | The LED's behavior indicates a critical state: it is off because the voltage across its terminals is below the conduction threshold required to turn it on.                                    |
 | Transistor collector current  | Short circuit| Optimal result.                    |
-| Switch                        | Invested     | When the switch is pressed, the LED is off, but when it is not pressed, the LED remains on.    
-                                                                                    |
-
-
+| Switch                        | Invested     | When the switch is pressed, the LED is off, but when it is not pressed, the LED remains on.  |
 ## Simulations
 
 The implemented methodology consists of performing functional tests on the circuit to verify the 
