@@ -46,18 +46,15 @@ region where the emitter voltage is very low, causing energy dissipation without
 | VCC                           | 0.5V         | Circuit power supply.              |
 | VLED                          | 0.19V        | The LED's behavior indicates a critical state: it is off because the voltage across its terminals is below the conduction threshold required to turn it on.                                    |
 | Transistor collector current  | Short circuit| Optimal result.                    |
-| Switch                        | Invested     | When the switch is pressed, the LED is off, but when it is not pressed, the LED remains on.    
-                                                                                    |
-
-
+| Switch                        | Invested     | When the switch is pressed, the LED is off, but when it is not pressed, the LED remains on.  |
 ## Simulations
 
 The implemented methodology consists of performing functional tests on the circuit to verify the 
 results for each component, checking their behavior against the electrical connections made.
 
-![Texto alternativo]("./BJT_Circuit.png")
+[Go to BJT_Circuit.png](https://github.com/LauraSanchez22/Electronic-Validation-Circuits/blob/main/BJT_Switching_Circuit/BJT_Circuit.png)
 
-![Texto alternativo]("./BJT_Circuit_Led_ON.png")
+[Go to BJT_Circuit_Led_ON.png](https://github.com/LauraSanchez22/Electronic-Validation-Circuits/blob/main/BJT_Switching_Circuit/BJT_Circuit_Led_ON.png)
 
 ## Modifications to the circuit (evidence)
 
@@ -77,8 +74,7 @@ ignores the switch position.
 Since the collector is directly connected to VCC without any intervening resistor, the collector 
 current tends to rise to a high value.
 
-
-![Texto alternativo]("./Modified_BJT_Circuit.png")
+[Go to Modified_BJT_Circuit.png](https://github.com/LauraSanchez22/Electronic-Validation-Circuits/blob/main/BJT_Switching_Circuit/Modified_BJT_Circuit.png)
 
 
 ## Results obtained from the modified simulation
@@ -97,13 +93,13 @@ current tends to rise to a high value.
 When the switch is open, the transistor remains off, blocking current flow; this keeps the 
 LED off and the voltmeter reading at 0.
 
-![Texto alternativo]("./NPN_Transistor_Switching_OFF.png")
+[Go to NPN_Transistor_Switching_OFF.png](https://github.com/LauraSanchez22/Electronic-Validation-Circuits/blob/main/BJT_Switching_Circuit/NPN_Transistor_Switching_OFF.png)
 
 When current enters the transistor's base, the transistor activates, acting as a closed circuit 
 to ground; current flows from the 5V source through the 220Ω resistor, lighting up the pink LED. 
 However, this results in a voltage drop of 2.23V as measured by the voltmeter.
 
-![Texto alternativo]("./NPN_Transistor_Switching_ON.png")
+[Go to NPN_Transistor_Switching_ON.png](https://github.com/LauraSanchez22/Electronic-Validation-Circuits/blob/main/BJT_Switching_Circuit/NPN_Transistor_Switching_ON.png)
 
 As part of the modifications to this final design, some connections were changed and the 1 kΩ 
 resistor was removed.
