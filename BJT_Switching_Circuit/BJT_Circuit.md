@@ -1,5 +1,9 @@
 # **NPN transistor switching circuit**
 
+#### Project: NPN Transistor (2N2222) Switching Circuit
+#### Author: Laura Lizbeth Sanchez Ramirez
+#### Software: Proteus 8 Professional
+
 ## **Electrical diagram components**
 
 - Power supply: VCC = 5V
