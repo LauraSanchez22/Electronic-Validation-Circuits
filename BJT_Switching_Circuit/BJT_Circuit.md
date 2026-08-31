@@ -52,7 +52,7 @@ region where the emitter voltage is very low, causing energy dissipation without
 The implemented methodology consists of performing functional tests on the circuit to verify the 
 results for each component, checking their behavior against the electrical connections made.
 
-![Texto alternativo]("BJT_Circuit.png")
+![Texto alternativo]("BJT_Switching_Circuit/BJT_Circuit.png")
 
 ![Texto alternativo]("BJT_Circuit_Led_ON.png")
 
